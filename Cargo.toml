@@ -1,0 +1,15 @@
+[package]
+name = "dinovelc"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.62"
+clap = { version = "3.2.17", features = ["derive"] }
+confy = "0.4.0"
+log = "0.4.0"
+env_logger = "0.8.4"
+clap-verbosity-flag = "1.0.1"
